@@ -28,7 +28,7 @@ class CTRNN:
         I = np.reshape(inputs, (self.n_nodes, 1)) 
 
         for i in range(0, iterations):
-            self.iterate(inputs)
+            self.iterate(I)
 
         yt = self.y[-1]
 
